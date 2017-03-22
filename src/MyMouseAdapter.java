@@ -150,6 +150,8 @@ public class MyMouseAdapter extends MouseAdapter {
 						else{
 							if(myPanel.colorArray[myPanel.mouseDownGridX][myPanel.mouseDownGridY]==Color.RED){
 								myPanel.colorArray[myPanel.mouseDownGridX][myPanel.mouseDownGridY] = Color.WHITE;
+								
+								//Can't get this to work. :(
 							}
 						}
 					}
